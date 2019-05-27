@@ -6,7 +6,7 @@ from ship import Ship
 
 
 def run_game():
-    # Initialize game and create a screen object.
+    # Initialize game and create a screen object. Początek gry.
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
